@@ -1,7 +1,7 @@
 # PCA: EXP-1  SUM ARRAY GPU
-<h3>ENTER YOUR NAME</h3>
-<h3>ENTER YOUR REGISTER NO</h3>
-<h3>EX. NO</h3>
+<h3>ENTER YOUR NAME : M.CHANDRU</h3>
+<h3>ENTER YOUR REGISTER NO : 212222230026</h3>
+<h3>EX. NO : 01</h3>
 <h3>DATE</h3>
 <h1> <align=center> SUM ARRAY ON HOST AND DEVICE </h3>
 PCA-GPU-based-vector-summation.-Explore-the-differences.
@@ -32,7 +32,9 @@ Google Colab with NVCC Compiler
 TYPE YOUR CODE HERE
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+
+![Screenshot 2024-08-27 090907](https://github.com/user-attachments/assets/41a9b120-a287-422f-ac2d-462ea6da0fb8)
+
 
 ## RESULT:
 Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
