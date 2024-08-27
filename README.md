@@ -2,7 +2,7 @@
 <h3>ENTER YOUR NAME : M.CHANDRU</h3>
 <h3>ENTER YOUR REGISTER NO : 212222230026</h3>
 <h3>EX. NO : 01</h3>
-<h3>DATE</h3>
+<h3>DATE : 27-08-2024</h3>
 <h1> <align=center> SUM ARRAY ON HOST AND DEVICE </h3>
 PCA-GPU-based-vector-summation.-Explore-the-differences.
 i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile and run it. Compare the result with the execution configuration of block.x = 1024. Try to explain the difference and the reason.
@@ -27,7 +27,11 @@ Google Colab with NVCC Compiler
 6. Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 ## PROGRAM:
+```c
+!pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
+%load_ext nvcc4jupyter
 ```
+```c
 %%cuda
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -269,7 +273,6 @@ int main(int argc, char **argv)
 ## OUTPUT:
 
 ![Screenshot 2024-08-27 090907](https://github.com/user-attachments/assets/41a9b120-a287-422f-ac2d-462ea6da0fb8)
-
 
 ## RESULT:
 Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
